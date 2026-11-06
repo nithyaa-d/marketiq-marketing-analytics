@@ -1,0 +1,3 @@
+variant,users,conversions,conversion_rate
+Control,10000,773,0.0773
+Treatment,10000,930,0.093

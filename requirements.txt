@@ -1,0 +1,11 @@
+
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+streamlit
+duckdb
+scipy
+pytest
+pytest-cov

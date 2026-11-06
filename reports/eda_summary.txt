@@ -1,0 +1,64 @@
+MARKETIQ - EXPLORATORY DATA ANALYSIS
+=============================================
+
+1. DATASET OVERVIEW
+Rows: 5110
+Columns: 11
+Date range: 2025-01-01 to 2025-12-31
+
+2. DATA TYPES
+date               str
+campaign_id        str
+channel            str
+region             str
+device             str
+impressions      int64
+clicks           int64
+leads            int64
+conversions      int64
+spend          float64
+revenue        float64
+
+3. MISSING VALUES
+date           0
+campaign_id    0
+channel        0
+region         0
+device         0
+impressions    0
+clicks         0
+leads          0
+conversions    0
+spend          0
+revenue        0
+
+4. DUPLICATE ROWS
+0
+
+5. DESCRIPTIVE STATISTICS
+       impressions   clicks    leads  conversions    spend   revenue
+count      5110.00  5110.00  5110.00      5110.00  5110.00   5110.00
+mean       2764.75   127.18    41.03        11.66   144.25   1333.49
+std        1284.09    88.87    31.23        12.09   111.08   1384.50
+min         500.00    10.00     2.00         0.00     4.85      0.00
+25%        1672.25    64.00    19.00         4.00    50.91    445.56
+50%        2760.50   107.00    33.00         8.00   118.97    862.44
+75%        3870.75   164.00    53.00        14.00   209.78   1673.82
+max        4999.00   522.00   227.00        85.00   557.18  11450.83
+
+6. CORRELATION MATRIX
+             impressions  clicks  leads  conversions  spend  revenue
+impressions         1.00    0.65   0.60         0.45   0.62     0.46
+clicks              0.65    1.00   0.93         0.92   0.11     0.89
+leads               0.60    0.93   1.00         0.86   0.10     0.83
+conversions         0.45    0.92   0.86         1.00  -0.06     0.97
+spend               0.62    0.11   0.10        -0.06   1.00     0.00
+revenue             0.46    0.89   0.83         0.97   0.00     1.00
+
+7. OUTLIER CHECK (IQR METHOD)
+impressions: 0 potential outliers
+clicks: 260 potential outliers
+leads: 242 potential outliers
+conversions: 451 potential outliers
+spend: 48 potential outliers
+revenue: 400 potential outliers

@@ -1,0 +1,4 @@
+device,total_impressions,total_clicks,total_conversions,total_spend,total_revenue,ctr_pct,conversion_rate_pct,cac,roas
+Mobile,4804976.0,220532.0,20255.0,250180.65,2319919.83,4.59,9.18,12.35,9.27
+Tablet,4699943.0,218061.0,19816.0,246397.57,2281233.3,4.64,9.09,12.43,9.26
+Desktop,4622939.0,211308.0,19520.0,240523.44,2212963.71,4.57,9.24,12.32,9.2
